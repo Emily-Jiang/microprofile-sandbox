@@ -1,0 +1,11 @@
+
+= MicroProfile AI
+
+This specification is to provide APIs to allow MicroProfile Applications benefit from LLM and create AI applications.
+
+As you may know, recently, Spring has provided https://docs.spring.io/spring-ai/reference/index.html[Spring AI] to create AI applications (see code https://github.com/spring-projects/spring-ai/[here]) and it seems that a lot of attention was drawn. The other project https://github.com/langchain4j[langchain4j] is also very popular, which is to simplify the integration of AI/LLM capabilities. Open Liberty has also provided an https://github.com/langchain4j/langchain4j-examples/tree/main/jakartaee-microprofile-example[example] of MicroProfile and Jakarta applications working with Langchain4j.
+
+This specification will focus on the following areas:
+* Provide MicroProfile AI programming model to develop AI applications
+* Provide some Embedding APIs to work with different databases 
+* Integrate with some other popular OpenAI libraries 
